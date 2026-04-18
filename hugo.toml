@@ -1,0 +1,101 @@
+baseURL = "https://elsayyay.github.io/bounty-blog/"
+languageCode = "en-us"
+title = "Youssef Elsayyad — Security Research"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  author = "Youssef Elsayyad"
+  description = "Bug bounty writeups, security research, and methodology notes."
+  env = "production"
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Bug Bounty & Security Research"
+    Content = """
+Software Engineering @ McMaster · Bug Bounty Hunter since 2021 · Web & Mobile Security Researcher
+
+Writeups on XSS, IDOR, auth bypasses, privilege escalation, and more.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/elsayyay"
+
+  [[params.socialIcons]]
+    name = "hackerone"
+    url = "https://hackerone.com/agentgeneric"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/youssef-e-0b0bb21b6"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:youssefelsayyad2006@gmail.com"
+
+[params.assets]
+  disableFingerprinting = false
+
+[params.cover]
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+    guessSyntax = true
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "writeups"
+  name = "Writeups"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
