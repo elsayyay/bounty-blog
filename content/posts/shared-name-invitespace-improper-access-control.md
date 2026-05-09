@@ -15,7 +15,7 @@ While analyzing a JavaScript bundle on `redacted.com`, I found a reference to an
  
 ## Target & Scope
  
-- **Program**: Roblox
+- **Program**: REDACTED
 - **Asset**: `*.redacted.com`
 - **Severity**: Medium (CVSS 4.2)
 - **Weakness**: Improper Access Control (CWE-284)
