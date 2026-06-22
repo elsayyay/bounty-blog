@@ -104,8 +104,8 @@ This confirmed that the invite ID namespaces were properly isolated between envi
 | 2022-07-21 | Vulnerability discovered and reported |
 | 2022-07-29 | HackerOne triage requested additional info |
 | 2022-07-29 | Provided video PoC demonstrating the issue |
-| 2022-08-02 | Triaged and handed off to Roblox security team |
-| 2022-08-02 | Roblox acknowledged the finding |
+| 2022-08-02 | Triaged and handed off to security team |
+| 2022-08-02 | security team acknowledged the finding |
 | 2022-09-01 | Fix deployed, retest requested |
 | 2022-09-01 | Confirmed fix — invite IDs now return `NotFoundError` |
 | 2022-09-21 | Bounty awarded |
