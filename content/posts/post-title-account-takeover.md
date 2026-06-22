@@ -1,6 +1,6 @@
 ---
 title: "A Post Title That Took Over Your Account"
-date: 2026-04-24
+date: 2026-06-22
 draft: false
 tags: ["stored-xss", "account-takeover", "xss"]
 categories: ["writeup"]
